@@ -233,6 +233,7 @@ export default function ProductsPage() {
                   <th className="text-left p-3">Giá bán</th>
                   <th className="text-left p-3">Loại bánh</th>
                   <th className="text-left p-3">Số lượng</th>
+                  <th className="text-left p-3">Mô tả</th>
                   <th className="text-left p-3">Trạng thái</th>
                   <th className="text-left p-3">Thao tác</th>
                 </tr>
@@ -250,6 +251,7 @@ export default function ProductsPage() {
                       <Badge variant="secondary">{product.category}</Badge>
                     </td>
                     <td className="p-3">{product.quantity}</td>
+                    <td className="p-3">{product.description}</td>
                     <td className="p-3">
                       <Badge variant={product.status === "active" ? "default" : "secondary"}>
                         {product.status === "active" ? "Đang bán" : "Đã ẩn"}
