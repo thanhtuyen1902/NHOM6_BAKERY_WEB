@@ -6,7 +6,8 @@ Giao diện quản trị (Admin Dashboard) cho website bán bánh ngọt. Giao d
 
 - ✅ **Quản lý sản phẩm**:  
   - Xem danh sách sản phẩm  
-  - Thêm / sửa / xoá sản phẩm  
+  - Thêm / sửa / xoá sản phẩm
+  - Ẩn/hiện sản phẩm trên trang trưng bày
   - Quản lý hình ảnh, giá, mô tả, số lượng
 
 - ✅ **Quản lý đơn hàng**:  
